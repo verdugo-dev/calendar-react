@@ -1,9 +1,10 @@
 import { AppRouter } from "../../router"
+import { Navbar } from "../"
 
 export const CalendarPage = () => {
     return (
         <>
-            <div>Calendar Page</div>
+            <Navbar></Navbar>
         </>
     )
 }
