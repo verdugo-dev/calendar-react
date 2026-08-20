@@ -5,7 +5,5 @@ import './styles.css'
 import { CalendarApp } from './CalendarApp';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
     <CalendarApp />
-  </StrictMode>,
 )
